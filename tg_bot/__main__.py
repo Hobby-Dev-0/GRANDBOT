@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-ᴀ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+GRAND OFFICIAL IS BACKC GUYS .
 Access my list of available commands with /help.
 
 """
@@ -37,19 +37,19 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+🔥 - /start: start the bot
+🔥 - /help: PM's you this message.
+🔥 - /help <module name>: PM's you info about that module.
+🔥 - /settings:
+🔥  ⭕ - in PM: will send you your settings for all supported modules.
+🔥 ⭕  - in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-START_IMG = "https://telegra.ph/file/950e2c28960bfc78386fc.jpg"
+START_IMG = "https://telegra.ph/file/a88a0cae64e991d61e51c.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -143,11 +143,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="❤️My Creator❤️",
-                                                                       url="t.me/Jacky_XD")],
+                                                                       url="t.me/teamishere")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/nub-sir/MrBunny-robot")
+                                                                       url="https://github.com/legendx22/GRANDROBOT")
                                                                                  ]]))
 
     else:
