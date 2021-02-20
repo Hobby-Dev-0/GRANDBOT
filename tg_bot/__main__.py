@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-GRAND OFFICIAL IS BACKC GUYS .
+Support This Bot This Bot Will Manage Your Group Easily This Bot Is Made By @omnamohnarayan .
 Access my list of available commands with /help.
 
 """
