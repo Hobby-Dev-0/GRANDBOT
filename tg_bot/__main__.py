@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-Support This Bot This Bot Will Manage Your Group Easily This Bot Is Made By @omnamohnarayan .
+Support This Bot This Bot Will Manage Your Group Easily This Bot Is Created By @PythonProgramingIN.
 Access my list of available commands with /help.
 
 """
@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-START_IMG = "https://telegra.ph/file/daa6728bbf787f8dfae7f.jpg"
+START_IMG = "https://telegra.ph/file/0d400e98023fc13ad9801.png"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -143,11 +143,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="❤️My Creator❤️",
-                                                                       url="t.me/OmNamohNarayana")],
+                                                                       url="t.me/PythonProgramingIN")],
                                                                                    [InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="www.google.com")
+                                                                                   InlineKeyboardButton(text="Support Group",
+                                                                       url="https://t.me/TechUpdates14")
                                                                                  ]]))
 
     else:
